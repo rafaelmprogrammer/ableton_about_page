@@ -1,0 +1,298 @@
+@font-face{
+    font-family: "Futura Book";
+    src: url("./futura-pt/FuturaCyrillicBook.ttf");
+}
+body {
+    overflow-x: hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/*Header*/
+.container-fluid{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logotipo, .nav-item{
+    margin-right: 20px;
+    font-family: "Futura Book";
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.under-menu{
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-family: "Futura Book";
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+
+.text-center{
+    position: relative; /* Definindo o contêiner como referência */
+    text-align: center;
+}
+
+.image-about-page{
+    width: 1000px;
+    height: 460px;
+}
+
+h1{
+    position: absolute; /* Posiciona o h1 de forma absoluta */
+    top: 50%; /* Alinha verticalmente */
+    left: 50%; /* Alinha horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: #ff764d;
+    font-family: "Futura Book";
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 24px;
+}
+
+/*Parágrafos*/
+.paragrafos{
+    margin: 100px 0px 100px 0px;
+}
+
+.body-text{
+    margin: 50px 200px 0px 200px;
+}
+
+.paragrafo-um{
+    font-family: "Futura Book";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.paragrafo-dois{
+    font-family: "Futura Book";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/*Secção de Imagens*/
+
+.seccao-imagens{
+    width: 100%;
+    position: relative; /* Garantindo que todos os itens sejam posicionados corretamente */
+}
+.yellow-block{
+    width: 60%;
+    height: 600px;
+    background-color: rgba(251, 251, 177, 0.998);
+    float: right;
+    position: relative; /* O bloco amarelo é o contêiner de referência */
+    margin-bottom: 100px;
+}
+
+.imagem-um{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 180px; /* Ajuste para posicionar a imagem como desejar */
+    right: 100px; /* Ajuste para movê-la horizontalmente */
+}
+
+.imagem-dois{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 80px; /* Ajuste para posicionar a imagem como desejar */
+    left: 130px; /* Ajuste para movê-la horizontalmente */
+}
+
+.clearfix {
+    clear: both;
+}
+
+.video{
+    margin: 0px 200px 0px 200px;
+}
+
+.paragrafo-video{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "Futura Book";
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.green-block{
+    width: 60%;
+    height: 900px;
+    background-color: rgba(177, 251, 179, 0.998);
+    float: left;
+    position: relative; /* O bloco amarelo é o contêiner de referência */
+    margin-bottom: 100px;
+}
+
+.imagem-tres{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 250px; /* Ajuste para posicionar a imagem como desejar */
+    right: 100px; /* Ajuste para movê-la horizontalmente */
+    left: 650px;
+}
+
+.imagem-quatro{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 500px; /* Ajuste para posicionar a imagem como desejar */
+    right: 100px; /* Ajuste para movê-la horizontalmente */
+    left: 100px;
+}
+
+.imagem-cinco{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 100px; /* Ajuste para posicionar a imagem como desejar */
+    right: 100px; /* Ajuste para movê-la horizontalmente */
+    left: 100px;
+}
+
+.purple-block{
+    width: 70%;
+    height: 700px;
+    background-color: rgba(213,179,255,255);
+    margin: 0 auto 100px; /* Centraliza horizontalmente e adiciona margem inferior */
+    display: block; /* Garante que o bloco seja tratado como um elemento de bloco */
+    position: relative;
+}
+
+.imagem-seis{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 200px; /* Ajuste para posicionar a imagem como desejar */
+    right: 500px; /* Ajuste para movê-la horizontalmente */
+}
+
+.imagem-sete{
+    position: absolute; /* Torna a imagem posicionável */
+    top: 100px; /* Ajuste para posicionar a imagem como desejar */
+    right: 100px; /* Ajuste para movê-la horizontalmente */
+    left: 500px;
+}
+
+.blue-block{
+    width: 70%;
+    height: 500px;
+    background-color: rgba(177,198,254,255);
+    margin: 0 auto 100px; /* Centraliza horizontalmente e adiciona margem inferior */
+    display: block; /* Garante que o bloco seja tratado como um elemento de bloco */
+    position: relative;
+}
+
+.paragrafo-imagem-oito{
+    position: absolute; /* Posiciona o h1 de forma absoluta */
+    top: 50%; /* Alinha verticalmente */
+    left: 70%; /* Alinha horizontalmente */
+    transform: translate(-30%, -50%); /* Centraliza o texto */
+}
+
+.paragrafo-oito{
+    font-family: "Futura Book";
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/*Footer*/
+footer {
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+    font-family: "Futura Book";
+  }
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-family: "Futura Book";
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .ft-title {
+    color: black;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    font-family: "Futura Book";
+  }
+  /* Sticks footer to bottom */
+  .container {
+    flex: 1;
+  }
+  /* Footer main */
+  .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px #7777776b solid;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+  
+  /* Footer main | Newsletter form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3125rem;
+  }
+  input[type="submit"] {
+    background-color: #a1f6d8;
+    color: black;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3125rem;
+    font-family: "Futura Book";
+  }
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #7777776b solid;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: white;
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+  }
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
